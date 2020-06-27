@@ -7,25 +7,7 @@
 </head>
 <body>
     <h1>Dibuja todo lo que se te pueda ocurrir</h1>
-    <canvas width="500" height="500" id="dibujito"></canvas>
-    <script>
-        var d=document.getElementById("dibujito");
-        var lienzo=d.getContext("2d");
-        console.log(lienzo);
-
-        lienzo.beginPath();
-        lienzo.strokeStyle="red";
-        lienzo.moveTo(100, 100);
-        lienzo.lineTo(200, 200);
-        lienzo.stroke();
-        lienzo.closePath();
-
-        lienzo.beginPath();
-        lienzo.strokeStyle="red";
-        lienzo.moveTo(350, 300);
-        lienzo.lineTo(125, 150);
-        lienzo.stroke();
-        lienzo.closePath();
-    </script>
+    <canvas width="500" height="500" id="dibujar"></canvas>
+    <script src="dibujar.js"></script>
 </body>
 </html>
